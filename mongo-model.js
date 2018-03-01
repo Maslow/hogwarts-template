@@ -30,8 +30,9 @@ async function importTemplateCode(template_id, name, type, parent, file_path) {
 
     // read file and get file contents
     if (type === 'file')
-        data = await fs.readFile(file_path)
+        data = await fs.readFile(file_path, 'utf-8')
 
+    if (data.length > 16000000) return
     // if (data.length > 16700000)
     //     console.log(file_path + 'size was too larger')
     // console.log('name: ' + name + '\t  type:' + type + '\t  parent: ' + parent)
@@ -45,7 +46,6 @@ async function importTemplateCode(template_id, name, type, parent, file_path) {
             data
         })
     await code.save()
-    console.log(global_i++)
 
 }
 
