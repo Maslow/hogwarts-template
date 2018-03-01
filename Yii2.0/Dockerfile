@@ -1,6 +1,4 @@
-FROM php:7.0
+FROM node
 ADD codes /app/codes
 
-RUN yum install -y nodejs
 RUN npm install -g mocha
-RUN mkdir /app
