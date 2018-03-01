@@ -2,5 +2,5 @@
     "name":"Yii_2.0",
     "desc":"Php web frameword",
     "tags":['php', 'web'],
-    "image_name":"hogwarts_templates:Yii2"
+    "image_name":"registry.cn-hangzhou.aliyuncs.com/blackmoon/hogwarts_templates:Yii2"
 }
