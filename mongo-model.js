@@ -27,28 +27,26 @@ async function importTemplateCode(template_id, name, type, parent, file_path) {
 
     let data = ''
     
-    try {
-        // read file and get file contents
-        if (type === 'file')
-            data = await fs.readFile(file_path)
 
-        // if (data.length > 16700000)
-        //     console.log(file_path)
-        // console.log('name: ' + name + '\t  type:' + type + '\t  parent: ' + parent)
-        
-        // create and save a code doc
-        const code = new TemplateCodeModel({
-                template_id,
-                name,
-                type,
-                parent,
-                data
-            })
-        await code.save()
-        console.log(global_i++)
-    } catch (error) {
-        console.log('import file to mongo caught an error: ' + error)
-    }
+    // read file and get file contents
+    if (type === 'file')
+        data = await fs.readFile(file_path)
+
+    // if (data.length > 16700000)
+    //     console.log(file_path + 'size was too larger')
+    // console.log('name: ' + name + '\t  type:' + type + '\t  parent: ' + parent)
+    
+    // create and save a code doc
+    const code = new TemplateCodeModel({
+            template_id,
+            name,
+            type,
+            parent,
+            data
+        })
+    await code.save()
+    console.log(global_i++)
+
 }
 
 /**
