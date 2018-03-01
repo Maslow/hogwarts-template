@@ -1,6 +1,6 @@
 {
     "name":"Yii_2.0",
     "desc":"Php web frameword",
-    "tags":[],
-    "image_name":""
+    "tags":['php', 'web'],
+    "image_name":"hogwarts_templates:Yii2"
 }
