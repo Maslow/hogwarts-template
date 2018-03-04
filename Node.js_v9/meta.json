@@ -1,0 +1,6 @@
+{
+    "name":"Node.js v9",
+    "desc":"Node.js v9",
+    "tags":["node", "node.js", "js", "nodejs"],
+    "image_name":"registry.cn-hangzhou.aliyuncs.com/step8step/hogwarts-templates::nodejs-v9"
+}

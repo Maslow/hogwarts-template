@@ -6,10 +6,9 @@ const fs = require('fs-extra')
 
 // mongo initialization
 mongoose.Promise = Promise
-const mongodb_host = 'localhost'
-const mongo_uri = `mongodb://${mongodb_host}/templates`
+const mongodb_host = 'mongo'
+const mongo_uri = `mongodb://${mongodb_host}/tech_course`
 mongoose.connect(mongo_uri)
-let global_i = 0
 
 // ===================================== Function Implementation =============================================
 
@@ -24,10 +23,8 @@ let global_i = 0
  * @return null
  */
 async function importTemplateCode(template_id, name, type, parent, file_path) {
-
     let data = ''
     
-
     // read file and get file contents
     if (type === 'file')
         data = await fs.readFile(file_path, 'utf-8')
