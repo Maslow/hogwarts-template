@@ -1,0 +1,6 @@
+{
+    "name":"Node.js v8",
+    "desc":"Node.js v8",
+    "tags":["node", "node.js", "js", "nodejs"],
+    "image_name":"registry.cn-hongkong.aliyuncs.com/hogwarts-templates/node:8"
+}
