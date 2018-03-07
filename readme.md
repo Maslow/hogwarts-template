@@ -4,8 +4,6 @@
 ```sh
     # REPLACE 'node-v8' with template supposed to import
     docker run -it --name importer --rm -v $(pwd):/app --network=server_backend -w /app node node import.js -t node-v8
-
-    docker rm importer
 ```
 
 # Usage, for docker swarm
