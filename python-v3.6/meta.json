@@ -1,0 +1,6 @@
+{
+    "name":"Python 3.6",
+    "desc":"Python 3.6",
+    "tags":["python"],
+    "image_name":"registry.cn-hongkong.aliyuncs.com/hogwarts-templates/python:3.6"
+}

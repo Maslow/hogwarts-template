@@ -1,0 +1,6 @@
+{
+    "name":"Golang 1.10",
+    "desc":"Golang 1.10",
+    "tags":["go", "golang"],
+    "image_name":"registry.cn-hongkong.aliyuncs.com/hogwarts-templates/golang:1.10"
+}

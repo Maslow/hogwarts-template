@@ -1,0 +1,6 @@
+{
+    "name":"PHP 7.1",
+    "desc":"PHP 7.1",
+    "tags":["php"],
+    "image_name":"registry.cn-hongkong.aliyuncs.com/hogwarts-templates/php:7.1"
+}

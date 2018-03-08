@@ -1,0 +1,6 @@
+{
+    "name":"Java 9",
+    "desc":"Java 9",
+    "tags":["java"],
+    "image_name":"registry.cn-hongkong.aliyuncs.com/hogwarts-templates/java:9"
+}
