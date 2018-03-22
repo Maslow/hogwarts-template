@@ -10,5 +10,6 @@ RUN cd /root/libuv && sh autogen.sh
 RUN cd /root/libuv && ./configure
 RUN cd /root/libuv && make
 RUN cd /root/libuv && make install
+RUN ldconfig
 
 ADD codes /app/codes
