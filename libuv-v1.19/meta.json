@@ -1,0 +1,6 @@
+{
+    "name":"libuv 1.19",
+    "desc":"libuv is a multi-platform support library with a focus on asynchronous I/O.",
+    "tags":["c", "libuv", "node"],
+    "image_name":"registry.cn-hongkong.aliyuncs.com/hogwarts-templates/libuv:1.19"
+}
